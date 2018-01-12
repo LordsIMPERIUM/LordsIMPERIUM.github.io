@@ -2,6 +2,9 @@ html {
     background-image: url('Backgrounds & Icons/vector-white-flat-landscape.jpg');
     background-repeat: no-repeat;
 }
+body {
+    overflow: hidden;
+}
 /*-- Header --*/
     #header-TOP {
         min-height: 18vh;
