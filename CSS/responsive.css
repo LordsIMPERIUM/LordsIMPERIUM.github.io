@@ -1,0 +1,77 @@
+html {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    color: rgba(0,0,0,.87);
+}
+html, body, header, section, footer {
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    flex-flow: column nowrap;
+    min-height: 50vh;
+    background-color: #fff;
+}
+img, embed, object, video {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+section {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    min-height: 50vh;
+    background-color: #000;
+    color: #FFF;
+}
+section h2 {
+    margin: auto;
+    margin-bottom: 0;
+    font-family: 'Bungee', cursive;
+    font-size: 5vw;
+    letter-spacing: 0.7vw;
+    text-align: center;
+}
+
+/*-- Classes Header --*/
+.center_TXT {
+    margin: auto;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 8vw;
+    max-width: 100%;
+    color: #373a3c;
+}
+
+/*-- Classes Section --*/
+.btn_STYLE {
+    min-height: 48px;
+    margin: auto;
+    margin-top: 0;
+    padding: 0.8vh 5vw;
+    font-family: 'Cinzel', serif;
+    font-size: 8vw;
+    color: #373a3c;
+    text-decoration: none;
+    border: 0;
+    background-color: #FFF;
+}
+.btn_STYLE:hover {
+    background: #F6FC3C;
+    color: #000;
+}
+.btn_STYLE:focus {
+    outline: none;
+}
+
+@media (orientation: landscape) {
+    section h2 {
+        font-size: 3vw;
+        letter-spacing: 0.4vw;
+    }
+    .btn_STYLE {
+        font-size: 6vw;
+    }
+}

@@ -1,0 +1,71 @@
+html {
+    background-image: url('Backgrounds & Icons/vector-white-flat-landscape.jpg');
+    background-repeat: no-repeat;
+}
+/*-- Header --*/
+    #header-TOP {
+        min-height: 18vh;
+    }
+    .visible-link {
+        padding: 15px 2vh;
+        font-size: 4.2vh;
+    }
+
+/*-- Section --*/
+    .slider-member {
+        flex-flow: row nowrap;
+    }
+    .figure-lord {
+        width: 50%;
+    }
+    .member-header {
+        order: 2;
+        width: 50%;
+        min-height: 82vh;
+        padding: 4vh 0;
+        text-align: start;
+        align-self: baseline;
+    }
+    .conteiner-member-header {
+        height: 54vh;
+    }
+    .conteiner-member-header h2 {
+        font-size: 10vh;
+    }
+    .conteiner-member-header h1 {
+        font-size: 11vh;
+    }
+    .conteiner-member-header p {
+        font-size: 4vh;
+    }
+
+/*-- Footer --*/
+    #footer-BOTTOM {
+        display: none;
+    }
+    #footer-SECTION {
+        display: block;
+        width: 100%;
+        height: 16vh;
+    }
+    .footer-section-div {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        padding: 2vw 0;
+    }
+    .footer-section-div .p-footer-section {
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        font-size: 3.5vh;
+        letter-spacing: 0.4vh;
+        margin: auto;
+        padding-bottom: 0;
+    }
+    .link-footer-section:hover {
+        color: yellow;
+    }
+    .fa-copyright:before {
+        content: "\f1f9";
+        font-family: FontAwesome;
+        font-size: 3vh;
+    }
