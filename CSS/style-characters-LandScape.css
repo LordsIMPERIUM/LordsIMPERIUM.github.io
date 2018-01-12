@@ -61,6 +61,7 @@ body {
         font-family: 'Yanone Kaffeesatz', sans-serif;
         font-size: 3.5vh;
         letter-spacing: 0.4vh;
+        color: #353535; 
         margin: auto;
         padding-bottom: 0;
     }

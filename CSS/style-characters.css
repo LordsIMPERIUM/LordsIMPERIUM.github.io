@@ -107,12 +107,16 @@ body {
         font-size: 5vw;
         padding-top: 2vh;
     }
+    .link-by:hover {
+        color: #e85a4f;
+    }
     .img-lord {
         max-width: 100%;
     }
     #footer-SECTION {
         display: none;
     }
+    
 /*-- Footer --*/
     #footer-BOTTOM {
         width: 100%;
@@ -127,6 +131,7 @@ body {
         font-family: 'Yanone Kaffeesatz', sans-serif;
         font-size: 4.5vw;
         letter-spacing: 0.4vw;
+        color: #353535; 
         margin: auto;
         padding-bottom: 1vh;
     }
@@ -138,4 +143,3 @@ body {
         font-family: FontAwesome;
         font-size: 4vw;
     }
-
