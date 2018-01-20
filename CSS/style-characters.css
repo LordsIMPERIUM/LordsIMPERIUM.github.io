@@ -89,26 +89,26 @@ body {
     }
     .member-header h2 {
         color: rgba(41,41,41,.2);
-        font-family: 'Russo One', sans-serif;
-        font-size: 12vw;
+        font-family: 'Orbitron', sans-serif;
+        font-size: 9vw;
+        font-weight: 900;
         letter-spacing: 1vw;
         line-height: 0.9em;
     }
     .member-header h1 {
         color: #e85a4f;
-        font-size: 13vw;
+        font-size: 10vw;
         letter-spacing: 0.8vw;
         line-height: 0.9em;
-        font-family: 'Cinzel', serif;
-        margin-top: -0.3em;
+        font-family: 'Orbitron', sans-serif;
+        margin-top: -0.25em;
     }
     .member-header p {
-        font-family: 'Yanone Kaffeesatz', sans-serif;
-        font-size: 5vw;
-        padding-top: 2vh;
-    }
-    .link-by:hover {
-        color: #e85a4f;
+        font-family: 'Orbitron', sans-serif;
+        font-size: 3vw;
+        font-weight: 900;
+        letter-spacing: 0.1vw;
+        padding-top: 1.5vh;
     }
     .img-lord {
         max-width: 100%;

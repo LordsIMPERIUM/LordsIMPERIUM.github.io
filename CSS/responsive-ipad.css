@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 html {
     box-sizing: border-box;
     -webkit-tap-highlight-color: transparent;
@@ -13,11 +16,6 @@ header {
     min-height: 50vh;
     background-color: #fff;
 }
-img, embed, object, video {
-    max-width: 100%;
-    margin: 0;
-    padding: 0;
-}
 section {
     display: flex;
     flex-flow: column nowrap;
@@ -27,12 +25,13 @@ section {
     color: #FFF;
 }
 section h2 {
-    margin: auto;
-    margin-bottom: 0;
-    font-family: 'Bungee', cursive;
-    font-size: 3vw;
-    letter-spacing: 0.7vw;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 5.5vw;
+    letter-spacing: 0.4vw;
     text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
 
 /*-- Classes Header --*/
@@ -46,17 +45,25 @@ section h2 {
 }
 
 /*-- Classes Section --*/
-.btn_STYLE {
-    min-height: 48px;
+.column-NAV {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 50%;
     margin: auto;
-    margin-top: 0;
-    padding: 0.8vh 5vw;
-    font-family: 'Cinzel', serif;
-    font-size: 8vw;
+    padding: 0;
+    border: 0;
+}
+.btn_STYLE {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 900;
+    font-size: 12vw;
     color: #373a3c;
     text-decoration: none;
     border: 0;
     background-color: #FFF;
+    min-height: 60px;
+    min-width: 100%;
+    margin: auto;
 }
 .btn_STYLE:hover {
     background: #F6FC3C;
@@ -68,10 +75,11 @@ section h2 {
 
 @media (orientation: landscape) {
     section h2 {
-        font-size: 2vw;
-        letter-spacing: 0.4vw;
+        font-size: 5.5vh;
+        letter-spacing: 0.4vh;
     }
     .btn_STYLE {
-        font-size: 5vw;
+        font-size: 10vh;
+        min-width: 70%;
     }
 }
